@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    color: black;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.no-scrollbar::-webkit-scrollbar { 
+    display: none; 
+} 
