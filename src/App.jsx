@@ -11,14 +11,14 @@ function App() {
     const [isCategoryView, setIsCategoryView] = useState(false); // State to track if the category view is active
 
     return (
-        <div className="bg-[#362222] text-white min-h-screen">
+        <div className="bg-[#292930] text-white min-h-screen">
             <Navbar />
-            <div className="container mx-auto bg-[#FFB000] mb-5 mt-5 pt-5 rounded-xl shadow-xl">
+            <div className="container mx-auto bg-[#fcc133] mb-5 mt-5 pt-5 rounded-xl shadow-xl">
                 <SearchBar onSearchResults={setSearchResults} />
 
                 {/* Button to switch to category view */}
                 <div className="text-center py-10 text-xl font-semibold">
-                <button className="mx-auto bg-[#B3541E] text-white p-2 items-center text-center rounded-md" onClick={() => setIsCategoryView(!isCategoryView)}>
+                <button className="mx-auto bg-[#1f2430] text-[#fcc133] p-2 items-center text-center rounded-md" onClick={() => setIsCategoryView(!isCategoryView)}>
                     {isCategoryView ? 'Search by Name' : 'Browse by Category'}
                 </button></div>
                 {/* Render components based on the state */}

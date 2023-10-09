@@ -25,7 +25,7 @@ function MealByCategory() {
           {categories.map(category => (
             <div 
               key={category} 
-              className="bg-orange-500 p-4 cursor-pointer hover:bg-orange-900 transition duration" 
+              className="bg-[#1f2430] p-4 cursor-pointer hover:bg-[#292930] transition duration text-[#fcc133]" 
               onClick={() => setSelectedCategory(category)}
             >
               {category}
@@ -34,12 +34,12 @@ function MealByCategory() {
         </div>
       ) : (
         <div>
-          <button className="mb-4 text-white bg-orange-500 p-2" onClick={() => setSelectedCategory(null)}>Back to Categories</button>
+          <button className="mb-4 text-[#fcc133] bg-[#1f2430] p-2" onClick={() => setSelectedCategory(null)}>Back to Categories</button>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {meals.map(meal => (
-              <div key={meal.idMeal} className="bg-gray-50 rounded-lg">
+              <div key={meal.idMeal} className="bg-[#1f2430] rounded-lg">
                 <img src={meal.strMealThumb} alt={meal.strMeal} className="w-full h-40 object-cover mb-2 rounded-t-lg" />
-                <h3 className="font-bold text-gray-950 text-center">{meal.strMeal}</h3>
+                <h3 className="font-bold text-[#fcc133] text-center">{meal.strMeal}</h3>
               </div>
             ))}
           </div>
