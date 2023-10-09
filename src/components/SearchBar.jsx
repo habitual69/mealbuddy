@@ -22,7 +22,7 @@ function SearchBar({ onSearchResults }) {
                     type="text"
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    className="w-80 px-10 py-2 text-gray-700 bg-gray-200 placeholder-gray-600 rounded-full focus:outline-none focus:shadow-outline shadow-md transition"
+                    className="w-80 px-10 py-2 text-[#fcc133] bg-[#1f2430] placeholder-gray-200 rounded-full focus:outline-none focus:shadow-outline shadow-md transition"
                     placeholder="Search for meals..."
                 />
                 <button 

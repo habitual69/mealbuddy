@@ -57,7 +57,7 @@ function SuggestedMeal() {
 
   return (
     <div className="p-4 relative text-[#362222]">
-      <h2 className="text-2xl font-bold mb-4 bg-[#292930] p-2 rounded-xl text-center text-[#fcc133]">Top 10 Meals</h2>
+      <h2 className="text-2xl font-bold mb-4 bg-[#292930] p-2 rounded-xl text-center text-[#fcc133]">TOP 10 MEALS</h2>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
         {meals.map(meal => (
           <div key={meal.idMeal} onClick={() => setActiveMeal(meal)} className="rounded-xl overflow-hidden shadow-xl bg-[#292930] hover:scale-105 cursor-pointer transition-transform duration-300">
@@ -69,7 +69,7 @@ function SuggestedMeal() {
         ))}
       </div>
       
-      <h2 className="text-2xl font-bold mb-4 bg-[#292930] p-2 rounded-xl text-center text-[#fcc133] my-8">Meal of the Month</h2>
+      <h2 className="text-2xl font-bold mb-4 bg-[#292930] p-2 rounded-xl text-center text-[#fcc133] my-8">MEAL OF THE MONTH</h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
         {monthMeals.map(meal => (
           <div key={meal.idMeal} onClick={() => setActiveMeal(meal)} className='relative rounded-xl transition-transform scroll-smooth duration-300 cursor-pointer'>
