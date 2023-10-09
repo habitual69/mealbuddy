@@ -56,11 +56,11 @@ function SuggestedMeal() {
   }, []);
 
   return (
-    <div className="p-4 relative text-gray-900">
+    <div className="p-4 relative text-[#362222]">
       <h2 className="text-2xl font-bold mb-4 bg-gray-50 p-2 rounded-xl text-center">Top 10 Meals</h2>
       <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
         {meals.map(meal => (
-          <div key={meal.idMeal} onClick={() => setActiveMeal(meal)} className="rounded overflow-hidden shadow-md bg-slate-50 hover:scale-105 cursor-pointer transition-transform duration-300">
+          <div key={meal.idMeal} onClick={() => setActiveMeal(meal)} className="rounded-xl overflow-hidden shadow-xl bg-slate-50 hover:scale-105 cursor-pointer transition-transform duration-300">
             <img src={meal.strMealThumb} alt={meal.strMeal} className="w-full h-40 object-cover" />
             <div className="px-4 py-2">
               <h3 className="font-bold text-xl mb-2 text-center">{meal.strMeal}</h3>

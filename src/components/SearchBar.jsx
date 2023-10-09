@@ -26,7 +26,7 @@ function SearchBar({ onSearchResults }) {
                     placeholder="Search for meals..."
                 />
                 <button 
-                    className="absolute top-0 right-0 px-5 py-2 text-white bg-orange-500 rounded-full hover:bg-orange-600 focus:outline-none focus:shadow-outline shadow-md transition transform hover:scale-105" 
+                    className="absolute top-0 right-0 px-5 py-2 text-white bg-[#B3541E] rounded-full hover:bg-orange-600 focus:outline-none focus:shadow-outline shadow-md transition transform hover:scale-105" 
                     onClick={handleSearch}>
                     Search
                 </button>
