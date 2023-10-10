@@ -2,7 +2,7 @@
 
 MealBuddy is a comprehensive platform designed to help users discover new meals, delve into detailed recipes, and explore a culinary world like never before.
 
-![Screenshot of MealBuddy](./screenshots/mealbuddy.png) <!-- Replace 'path_to_screenshot.png' with the path to a screenshot of your app if available -->
+![Screenshot of MealBuddy](./screenshots/mealbuddy.png) 
 
 ## Features
 
